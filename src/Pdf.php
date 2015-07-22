@@ -533,6 +533,12 @@ class Pdf
         return $this->_tmpFile;
     }
 
+    public function setOutput($output)
+    {
+        $this->_output = $output;
+        return $this;
+    }
+
     /**
      * @return string the error message or an empty string if none
      */
